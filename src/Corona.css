@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 90%;
+    margin:auto
+
+}
+
+.table-responsive{
+    /* max-height: 700px; */
+    box-shadow: rgba(0,0,0,0.25)0px 25px 50px -12px;
+
+}
+
+thead{
+    background: #e59393;
+    color: white;
+}
+
+td:hover{
+    color: darkblue;
+}
+td,th{position: relative;}
+
+.table td,
+.table th{
+    padding: 2rem;
+    vertical-align: top;
+    border-top: none;
+    width: 205px;
+font-weight: bold;
+}
+
+.theda-dark{
+    font-weight: bold;
+    text-transform: uppercase;
+}
